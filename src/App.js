@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
+import NavBar from './components/nav_bar'
 
 class App extends Component {
   render() {
     return (
-      <h1>Beau's App</h1>
+      <div>
+        <NavBar />
+      </div>
     );
   }
 }
